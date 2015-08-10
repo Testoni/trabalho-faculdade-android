@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.br.atps" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_gift"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InserirDesejos"
+            android:label="@string/title_activity_inserir_desejos" >
+        </activity>
+        <activity
+            android:name=".DetalhesDesejo"
+            android:label="@string/title_activity_detalhes_desejo" >
+        </activity>
+        <activity
+            android:name=".AlterarDesejo"
+            android:label="@string/title_activity_alterar_desejo" >
+        </activity>
+        <activity
+            android:name=".SlideActivity"
+            android:label="@string/title_activity_slide" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.br.atps.InserirDesejos">
+
+
+    <EditText
+        android:id="@+id/nome_produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nome_produto"/>
+
+    <EditText
+        android:id="@+id/categoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/categoria"
+        android:layout_below="@id/nome_produto"
+        />
+
+    <EditText
+        android:id="@+id/preco_minimo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/preco_minimo"
+        android:layout_below="@id/categoria"
+        />
+
+    <EditText
+        android:id="@+id/preco_maximo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/preco_maximo"
+        android:layout_below="@id/preco_minimo"
+        />
+
+    <EditText
+        android:id="@+id/lojas_achar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/lojas_achar"
+        android:layout_below="@id/preco_maximo"
+        />
+
+
+</RelativeLayout>
